@@ -1,0 +1,21 @@
+AllCops:
+    NewCops: enable
+
+Layout/EndOfLine:
+    Enabled: False
+Layout/IndentationStyle:
+    Enabled: False
+Layout/IndentationWidth:
+    Enabled: False
+Metrics/BlockLength:
+    Enabled: False
+Metrics/MethodLength:
+    Enabled: False
+Metrics/AbcSize:
+    Enabled: False
+Layout/FirstHashElementIndentation:
+    Enabled: False
+Layout/AccessModifierIndentation:
+    Enabled: False
+Layout/MultilineOperationIndentation:
+    Enabled: False

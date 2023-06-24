@@ -5,7 +5,7 @@ require_relative '../lib/open_trivia_db'
 RSpec.describe OpenTriviaDB do
 	describe 'validate type parameter' do
 		it 'results from all types are returned when type is not set' do
-			json = OpenTriviaDB.new.get({})
+			json = OpenTriviaDB.new.get({amount: 40})
 
 			list = []
 			json[:questions].each do |question|

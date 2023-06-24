@@ -5,7 +5,7 @@ require_relative '../lib/open_trivia_db'
 RSpec.describe OpenTriviaDB do
 	describe 'validate difficulty parameter' do
 		it 'results from all difficulties are returned when difficulty is not set' do
-			json = OpenTriviaDB.new.get({})
+			json = OpenTriviaDB.new.get({amount: 40})
 			list = []
 			json[:questions].each do |question|
 				list.append(question[:difficulty]) unless list.include?(question[:difficulty])

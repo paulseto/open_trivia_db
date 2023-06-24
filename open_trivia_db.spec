@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name                  = 'open_trivia_db'
-  s.version               = '1.0.0'
+  s.version               = '1.0.1'
   s.summary               = 'Quiz questions based on the Open Trivia DB'
   s.description           = 'Retrieve questions from Open Trivia DB'
   s.authors               = ['Paul Seto']
